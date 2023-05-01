@@ -19,8 +19,8 @@ body{
     cursor: pointer;
 }
 .Header .logo img{
-    height: 20px;
-    width: 10px;
+    height: 66px;
+    width: 100px;
     transition: all 0.3s;
 }
 .Header .logo img:hover{
