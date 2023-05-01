@@ -51,7 +51,7 @@ text-decoration: none;
 }
 .Header .btn button{
     font-weight: 700;
-    color: bisque;
+    color: rgb(0, 0, 0);
     padding: 9px 25px;
     background-color: azure;
     border: none;
@@ -65,7 +65,14 @@ text-decoration: none;
     color: rgb(0, 0, 0);
     transform: scale(1.1);
 }
-
+@media (max-width:701px){
+    header{
+        flex-direction: colum;
+    }
+    nav{
+        padding: 0px 0px;
+    }
+}
 
 
 
