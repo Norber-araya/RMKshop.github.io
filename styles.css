@@ -79,12 +79,14 @@ text-decoration: none;
 
 .Item-Venta{
    
+    margin: 0 auto;
    
     font-family: 'lato';
     color:#333 ;
 }
-.Item-Img{
-    max-width: auto;
+.Imte-Img{
+   width: 200px;
+   height: 200px;
 }
 .Contenedor-item{
     margin: 20px;
