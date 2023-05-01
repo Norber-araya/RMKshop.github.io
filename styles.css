@@ -76,14 +76,21 @@ text-decoration: none;
 
 
 /* item-poleras */
+
 .Item-Venta{
-    margin: 0 auto;
-    max-width: 1200px;
+   
+   
     font-family: 'lato';
     color:#333 ;
 }
 .Item-Img{
     max-width: auto;
+}
+.Contenedor-item{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; 
 }
 
 
