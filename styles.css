@@ -1,9 +1,10 @@
-*::after
-*::before
-*{
+body{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    background-color: #f1f1f1;
 }
 /* Header */
 .Header{
@@ -18,8 +19,8 @@
     cursor: pointer;
 }
 .Header .logo img{
-    height: 80px;
-    width: 100px;
+    height: 20px;
+    width: 10px;
     transition: all 0.3s;
 }
 .Header .logo img:hover{
