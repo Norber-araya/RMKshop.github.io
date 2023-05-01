@@ -109,9 +109,9 @@ text-decoration: none;
     color:#333 ;
 }
 .Img-producto{
-    max-width: auto;
+    max-width: 100%;
 }
-.Item-Venta{
+.Contenedor-item{
     margin: 20px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -119,6 +119,7 @@ text-decoration: none;
 }
 .Contenedor-item{
     border-radius: 10px; 
+    
 }
 .Contenedor-item{
 box-shadow:0 10px 20px rgba(0, 0 , 0, 0.20);
@@ -138,7 +139,7 @@ overflow: hidden;
 }
 .info-productos{
     padding: 15px ;
-    line-height: 1;
+    line-height: 2;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -157,19 +158,19 @@ overflow: hidden;
     padding: 15px 15px;
     cursor: pointer;
     border-radius: 10px;
+    transition: all .5s;  
 }
 
 .div-button {
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    
 }
 .pruebabutton{
      transition: all .5s;  
-     
 }
  button:hover {   
-   
     transform:  scale(1.1);
     background-color: #00b8d4f9; 
    
