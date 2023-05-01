@@ -130,7 +130,8 @@ overflow: hidden;
     font-size: 18px;
     font-weight: 900;
 }
-.info-producto button{  
+
+.Boton-info{  
     border:none;
     border-radius: none;
     background-color: #000;
@@ -138,7 +139,8 @@ overflow: hidden;
     padding: 15px 15px;
     cursor: pointer;
 }
-.prueba {
+
+.div-button {
     overflow: hidden;
     display: flex;
     flex-direction: column;
