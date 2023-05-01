@@ -51,7 +51,7 @@ text-decoration: none;
 }
 .Header .btn button{
     font-weight: 700;
-    color: bisque;
+    color: rgb(0, 0, 0);
     padding: 9px 25px;
     background-color: azure;
     border: none;
