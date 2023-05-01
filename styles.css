@@ -8,7 +8,7 @@ body{
 }
 /* Header */
 .Header{
-    background-color: black;
+    background-color: rgb(19, 18, 18);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -43,7 +43,9 @@ color: azure;
 text-decoration: none;
 }
 .Header .navLink li a:hover{
-    color: rebeccapurple;
+    color: rgb(29, 29, 29);
+    transform: scale(1.1);
+    transition: all 0.3s;
 
 }
 .Header .btn button{
