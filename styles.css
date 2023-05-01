@@ -18,8 +18,8 @@
     cursor: pointer;
 }
 .Header .logo img{
-    height: 80px;
-    width: 100px;
+    height: 20px;
+    width: 10px;
     transition: all 0.3s;
 }
 .Header .logo img:hover{
