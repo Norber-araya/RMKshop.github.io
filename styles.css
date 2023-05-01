@@ -68,7 +68,12 @@ text-decoration: none;
 
 /* header */
 
-
+.ventas{
+    margin: 0 auto;
+    max-width: 1200px;
+    font-family: 'lato';
+    color:#333 ;
+}
 
 
 
