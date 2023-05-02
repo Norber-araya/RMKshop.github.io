@@ -201,8 +201,12 @@ padding: 45px 0px;
 }
 .pie-pagina .grupo-1 .box figure img{
     width: 150px;
+    transition: all 0.3s;
 
 }
+.pie-pagina .grupo-1 .box figure img:hover{
+    transform: scale(1.2);
+     }
 .pie-pagina .grupo-1 .box h2{
     color: white;
     margin-bottom: 25px;
@@ -246,4 +250,5 @@ padding: 45px 0px;
         color: white;
 
     }
+    
 /* Footer seba */
