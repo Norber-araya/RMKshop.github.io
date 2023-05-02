@@ -205,6 +205,7 @@ padding: 45px 0px;
     align-items: center;
 }
 .pie-pagina .grupo-1 .box figure img{
+    height: 200px;
     width: 200px;
     transition: all 0.3s;
 
