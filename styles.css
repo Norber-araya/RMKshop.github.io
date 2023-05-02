@@ -6,6 +6,7 @@
     font-family: 'Playfair Display', serif;
     font-size: 20px;
     background-color: #f1f1f1;
+    
 }
 /* Header */
 .Header{
@@ -166,13 +167,11 @@ overflow: hidden;
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    
+    transition: all .5s;  
 }
-.pruebabutton{
-     transition: all .5s;  
-}
+
  button:hover {   
-    transform:  scale(1.1);
+    
     background-color: #00b8d4f9; 
    
 }
