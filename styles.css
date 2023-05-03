@@ -1,3 +1,4 @@
+
 *{  
     margin: 0;
     padding: 0;}
@@ -16,6 +17,7 @@
     align-items: center;
     height: 70px;
     padding: 10px 10%;
+    
 }
 
 .Header .logo{
@@ -36,6 +38,7 @@ transform: scale(1.2);
 .Header .navLink li{
     display: inline-block;
     padding: 0 20px;
+    
 }
 .Header .navLink .li:hover{
     transform: scale(1.1);
@@ -44,12 +47,13 @@ transform: scale(1.2);
 font-size: 700;
 color: azure;
 text-decoration: none;
+
 }
 .Header .navLink li a:hover{
     color: rgb(0, 0, 0);
     transform: scale(1.1);
     transition: all 0.3s;
-
+    font-family: 'Playfair Display', serif;
 }
 .Header .btn button{
     margin: 5px;
@@ -149,7 +153,7 @@ text-decoration: none;
    
     margin: 0 auto;
     max-width: 1200px;
-    font-family: 'lato';
+    font-family: 'Playfair Display', serif;
     color:#333 ;
 }
 .Img-producto{
