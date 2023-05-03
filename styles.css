@@ -16,7 +16,7 @@
     justify-content: space-between;
     align-items: center;
     height: 100px;
-    padding: 10px 10%;
+    padding: 15px 10%;
     
 }
 
@@ -111,10 +111,10 @@ text-decoration: none;
 .Container{
     width: 80%;
     height: 400px;
-    padding: 15px;
+   
     background: lightgray;
     position: absolute;
-    top:50%;
+    top:40%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -147,7 +147,7 @@ img{
 .Item-Venta_index{
    
     margin: 0 auto;
-    margin-top: 550px;
+    margin-top: 600px;
     max-width: 1200px;
     font-family: 'lato';
     color:#333 ;
