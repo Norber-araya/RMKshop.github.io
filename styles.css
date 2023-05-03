@@ -121,7 +121,6 @@ text-decoration: none;
 img{
     width: 100%;
     height: 500PX;
-    object-fit: cover;
     cursor: poiner;
   
 }
