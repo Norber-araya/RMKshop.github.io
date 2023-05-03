@@ -55,6 +55,50 @@ text-decoration: none;
     transition: all 0.3s;
     font-family: 'Playfair Display', serif;
 }
+/* hamburguesa */
+/* .hamburguesa{
+    display: none;
+    cursor: pointer;
+}
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    background-color: wheat;
+}
+@media(max-width:800px){
+    .hamburguesa{
+        display: block;
+    }
+    .hamburguesa.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburguesa.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburguesa.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .navLink{
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background-color: aquamarine;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+        .navLink.active{
+            left: 0;
+        }
+    }
+   hamburguesa */
+
 .Header .btn button{
     margin: 5px;
     font-weight: 700;
