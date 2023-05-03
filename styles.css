@@ -56,18 +56,19 @@ text-decoration: none;
     font-family: 'Playfair Display', serif;
 }
 /* hamburguesa */
-/* .hamburguesa{
+ .hamburguesa{
     display: none;
     cursor: pointer;
 }
 .bar{
+    /* icono */
     display: block;
     width: 25px;
     height: 3px;
     margin: 5px auto;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
-    background-color: wheat;
+    background-color: rgb(255, 255, 255);
 }
 @media(max-width:800px){
     .hamburguesa{
@@ -85,19 +86,22 @@ text-decoration: none;
     .navLink{
         position: fixed;
         left: -100%;
-        top: 70px;
+        top: 120px;
         gap: 0;
         flex-direction: column;
-        background-color: aquamarine;
+        background-color: rgb(5, 5, 5);
         width: 100%;
         text-align: center;
         transition: 0.3s;
     }
+    .nav-link{
+        margin: 16px 0;
+      }
         .navLink.active{
             left: 0;
         }
     }
-   hamburguesa */
+   
 
 .Header .btn button{
     margin: 5px;
