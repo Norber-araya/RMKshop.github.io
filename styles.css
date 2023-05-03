@@ -183,7 +183,7 @@ overflow: hidden;
 }
 .info-productos{
     padding: 15px ;
-    line-height: 1;
+    line-height: 2;
     display: flex;
     flex-direction: column;
     gap: 20px;
