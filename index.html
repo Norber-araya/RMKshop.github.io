@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" href="img/RMKSHOPP´P.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/23e638bb7d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="slider/animacion/splide.min.css">
+    <script src="slider/animacion/splide.min.js"></script>
     <title>RMK Shop</title>
 </head>
 <body class="Bodyseba">
@@ -33,21 +35,43 @@
        
     </header>
 <!-- Slider -->
-<div class="slider-frame">
-    <ul>
-        <li> <img src="slider/Mater Roshi's Island [1920x1080].png" alt=""></li>
-        <li> <img src="slider/tarjeta presentacion rmk.jpg" alt=""></li>
-        <li><img src="slider/logo.jpg" alt=""></li>
-        <li><img src="slider/logo.jpg" alt=""></li>
-        
-    </ul>
-</div>
+<div class="Container">
+    <div class="splide">
+        <div class="splide__track">
+           
+            <ul class="splide__list">
 
+                <li class="splide__slide"> <img src="slider/imagenes/03xWKqpzOrLCuYNLkWWkPNk-1..v1574817543.jpg" alt=""></li>
+                <li class="splide__slide"> <img src="slider/imagenes/red-dead-redemption-2-20181025130125_32.jpg" alt=""></li>
+                <li class="splide__slide"> <img src="slider/imagenes/Red-Dead-Redemption-2-portada.jpg" alt=""></li>
+                <li class="splide__slide"> <img src="slider/imagenes/logo.jpg" alt=""></li>
+                <li class="splide__slide"> <img src="slider/imagenes/Mater Roshi's Island [1920x1080].png" alt=""></li>
+                <li class="splide__slide"> <img src="slider/imagenes/03xWKqpzOrLCuYNLkWWkPNk-1..v1574817543.jpg" alt=""></li>
+                
+            
+            </ul>
+            
+        
+        </div>
+        
+    </div>
+    
+</div>
+ 
+<script>
+    var splide = new Splide( '.splide', {
+  type    : 'loop',
+  perPage : 1,
+  autoplay: true,
+} );
+
+splide.mount();
+</script>
 
 
 
 <!-- Slider -->
-    <header class="Item-Venta">
+    <header class="Item-Venta_index">
         <div class="Contenedor-item">
             <div class="item">
                 <figure class="item-figure">
