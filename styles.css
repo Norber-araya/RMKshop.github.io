@@ -109,12 +109,11 @@ text-decoration: none;
 
 
 .Container{
+
     width: 80%;
     height: 400px;
-    padding: 15px;
-    background: lightgray;
-    position: absolute;
-    top:40%;
+    position: relative;
+    top:270px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -146,7 +145,7 @@ img{
 }
 .Item-Venta_index{
     margin: 0 auto;
-    margin-top: 600px;
+    margin-top: 180px;
     max-width: 1200px;
     font-family: 'lato';
     color:#333 ;
