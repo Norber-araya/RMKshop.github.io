@@ -111,7 +111,7 @@ text-decoration: none;
 .Container{
     width: 80%;
     height: 400px;
-   
+    padding: 15px;
     background: lightgray;
     position: absolute;
     top:40%;
@@ -145,7 +145,6 @@ img{
     color:#333 ;
 }
 .Item-Venta_index{
-   
     margin: 0 auto;
     margin-top: 600px;
     max-width: 1200px;
