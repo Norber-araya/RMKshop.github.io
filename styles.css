@@ -15,7 +15,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 70px;
+    height: 100px;
     padding: 10px 10%;
     
 }
@@ -24,8 +24,8 @@
     cursor: pointer;
 }
 .Header .logo img{
-    height: 66px;
-    width: 60px;
+    height: 100px;
+    width: 90px;
     transition: all 0.3s;
 }
 .Header .logo img:hover{
@@ -242,7 +242,7 @@ padding: 45px 0px;
     align-items: center;
 }
 .pie-pagina .grupo-1 .box figure img{
-    height: 200px;
+    height: 220px;
     width: 200px;
     transition: all 0.3s;
 
