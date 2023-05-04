@@ -309,11 +309,10 @@ padding: 45px 0px;
     color: white;
     margin-bottom: 10px;
 }
-.pie-pagina .redsocial button{
-    
+.pie-pagina .redsocial button {
     font-weight: 700;
     /* color: rgb(12, 197, 27); */
-    padding:  25px;
+    padding: 25px;
     background-color: rgb(255, 255, 255);
     border: none;
     border-radius: 10px;
@@ -321,110 +320,84 @@ padding: 45px 0px;
     transition: all 0.3 ease 0;
     background-image: url(asset/instagram.svg);
     background-size: 50px 50px;
-     }
-     .pie-pagina .btn2 button{
-        margin: 5px;
-        font-weight: 700;
-        /* color: rgb(12, 197, 27); */
-        padding:  25px;
-        background-color: rgb(255, 255, 255);
-        border: none;
-        border-radius: 10px;
-        cursor: pointer;
-        transition: all 0.3 ease 0;
-        background-image: url(asset/Menu.svg);
-        background-size: 50px 50px;
-    
-    }
-    .pie-pagina .grupo-2{
-        background-color: black;
-        padding: 15px 10px;
-        text-align: center;
-        color: white;
+}
 
-    }
+.pie-pagina .btn2 button {
+    margin: 5px;
+    font-weight: 700;
+    /* color: rgb(12, 197, 27); */
+    padding: 25px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3 ease 0;
+    background-image: url(asset/Menu.svg);
+    background-size: 50px 50px;
+
+}
+
+.pie-pagina .grupo-2 {
+    background-color: black;
+    padding: 15px 10px;
+    text-align: center;
+    color: white;
+
+}
     
 /* Footer seba */
-@media (max-width:415px){
-   
-    .Item-Venta{
-        margin: 0 auto;
+@media (max-width:415px) {
+
+    .Item-Venta {
         max-width: 400px;
-        font-family: 'Playfair Display', serif;
-        color:#333 ;
-    }
-    .Item-Venta_index{
-      
-        margin-top: 90px;
-       
     }
 
-    .Contenedor-item{
-        margin: 20px;
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        gap: 20px; 
+    .Item-Venta_index {
+        margin-top: 100px;
     }
-   
-  
+
+    .Contenedor-item {
+    
+        grid-template-columns: repeat(2, 1fr);
+       
+    } 
     .Img-producto {
         width: 100%;
         height: 200px;
         object-fit: cover;
-        border-radius: 10px 10px 0 0 ;
+        border-radius: 10px 10px 0 0;
         transition: all .5s;
     }
-    .item-figure{
-    overflow: hidden;
-    }
-    .Img-producto:hover  {
-        transform:  scale(1.15);
-    }
-    .info-productos{
-        padding: 15px ;
-        line-height: 1;
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        overflow: hidden;
-    }
-    .precio-porducto{
+
+    .info-productos {
         font-size: 10px;
-        font-weight: 900;
-    }
-    
-    .Boton-info{  
-        
-        border:none;
-        border-radius: none;
-        background-color: #000;
-        color: #fff;
-        padding: 15px 15px;
-        cursor: pointer;
-        border-radius: 10px;
-        transition: all .5s;  
     }
 
+    .precio-porducto {
+        font-size: 10px;
+       
+    }
 
-
-    .Container{
+    .Container {
 
         width: 100%;
-        height: 400px;
-        position: relative;
-        top:220px;
-        left: 50%;
-        transform: translate(-50%, -50%);
-      
+        height: 300px;
+        top: 194px;
     }
-    img{
+
+    .slide-img {
         width: 100%;
-        height: 400PX;
-        object-fit: cover;
+        height: 300PX;
         cursor: poiner;
-      
     }
-    
-   
+
+
+    .redsocial{
+        display:none;
+    }
+    ._h2{
+        display:none;
+    }
+
 
 }
