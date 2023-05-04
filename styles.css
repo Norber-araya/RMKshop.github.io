@@ -70,48 +70,6 @@ text-decoration: none;
     transition: all 0.3s ease;
     background-color: rgb(255, 255, 255);
 }
-@media(max-width:800px){
-    .hamburguesa{
-        display: block;
-    }
-    .hamburguesa.active .bar:nth-child(2){
-        opacity: 0;
-    }
-    .hamburguesa.active .bar:nth-child(1){
-        transform: translateY(8px) rotate(45deg);
-    }
-    .hamburguesa.active .bar:nth-child(3){
-        transform: translateY(-8px) rotate(-45deg);
-    }
-    .navLink{
-        position: fixed;
-        left: -100%;
-        top: 120px;
-        gap: 0;
-        flex-direction: column;
-        background-color: rgb(5, 5, 5);
-        width: 100%;
-        text-align: center;
-        transition: 0.3s;
-       
-    }
-    .nav-link{
-        margin: 16px 0;
-      }
-        .navLink.active{
-            left: 0;
-        }
-
-
-        /* slider */
-     
-      
-
-    }
-
- 
-
-   
 
 .Header .btn button{
     margin: 5px;
@@ -399,5 +357,72 @@ padding: 45px 0px;
         display:none;
     }
 
+    .logo-pie__pagina{
+        height: 1px;
+        width: 10px;
+    }
+    .pie-pagina .grupo-1 .box figure{
+        width: 120%;
+        height: 100%;
+       
+        
+       
+    }
 
 }
+
+
+
+
+@media(max-width:800px){
+    .hamburguesa{
+        display: block;
+    }
+    .hamburguesa.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburguesa.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburguesa.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .navLink{
+        position: fixed;
+        left: -100%;
+        top: 120px;
+        gap: 0;
+        flex-direction: column;
+        background-color: rgb(5, 5, 5);
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+       
+    }
+    .nav-link{
+        margin: 16px 0;
+      }
+        .navLink.active{
+            left: 0;
+        }
+
+
+        /* slider */
+        .Item-Venta_index {
+            margin-top: 100px;
+        }
+     
+        .Container {
+
+            width: 100%;
+            height: 350px;
+            top: 215px;
+        }
+    
+        .slide-img {
+            width: 100%;
+            height: 350PX;
+            cursor: poiner;
+        }
+
+    }
