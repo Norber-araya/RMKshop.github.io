@@ -59,11 +59,10 @@ text-decoration: none;
  .hamburguesa{
     display: none;
     cursor: pointer;
-    
+    position: absolute;
+ 
 }
 .bar{
-  
-
     /* icono */
     display: block;
     width: 25px;
@@ -382,8 +381,9 @@ padding: 45px 0px;
 
 @media(max-width:800px){
     .hamburguesa{
-        position:fixed;
+        
         display: block;
+        
     }
     .hamburguesa.active .bar:nth-child(2){
         opacity: 0;
