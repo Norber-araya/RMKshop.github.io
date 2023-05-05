@@ -151,7 +151,7 @@ text-decoration: none;
 .Item-Venta{
     margin: 0 auto;
     max-width: 1200px;
-    font-family: 'Playfair Display', serif;
+    font-family: 'lato';
     color:#333 ;
 }
 .Item-Venta_index{
@@ -315,9 +315,7 @@ padding: 45px 0px;
         max-width: 400px;
     }
 
-    .Item-Venta_index {
-        margin-top: 100px;
-    }
+   
 
     .Contenedor-item {
     
@@ -418,6 +416,9 @@ padding: 45px 0px;
         /* slider */
         .Item-Venta_index {
             margin-top: 100px;
+        }
+        .Item-Venta{
+            margin-top: 50px;
         }
      
         .Container {
