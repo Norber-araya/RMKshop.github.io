@@ -50,7 +50,7 @@ text-decoration: none;
 
 }
 .Header .navLink li a:hover{
-    color: rgb(0, 0, 0);
+    color: rgb(6, 98, 117);
     transform: scale(1.1);
     transition: all 0.3s;
     font-family: 'Playfair Display', serif;
