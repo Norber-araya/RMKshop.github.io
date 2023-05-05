@@ -59,8 +59,11 @@ text-decoration: none;
  .hamburguesa{
     display: none;
     cursor: pointer;
+    
 }
 .bar{
+  
+
     /* icono */
     display: block;
     width: 25px;
@@ -69,6 +72,7 @@ text-decoration: none;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
     background-color: rgb(255, 255, 255);
+   
 }
 
 .Header .btn button{
@@ -378,6 +382,7 @@ padding: 45px 0px;
 
 @media(max-width:800px){
     .hamburguesa{
+        position:fixed;
         display: block;
     }
     .hamburguesa.active .bar:nth-child(2){
@@ -390,7 +395,8 @@ padding: 45px 0px;
         transform: translateY(-8px) rotate(-45deg);
     }
     .navLink{
-        position: fixed;
+        position:absolute;
+        
         left: -100%;
         top: 120px;
         gap: 0;
