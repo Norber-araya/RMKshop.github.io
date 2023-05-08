@@ -78,6 +78,16 @@ splide.mount();
 </script>
 <!-- Slider -->
 
+
+    <div class="ful-img" id="fulImgBox">
+        <img src="" id="fulImg" alt="">
+        <span onclick="closeImg()">X</span>
+    </div>
+
+
+
+
+
     <header class="Item-Venta_index">
         <div class="Contenedor-item">
             <div class="item">
@@ -96,7 +106,7 @@ splide.mount();
             </div>
             <div class="item">
                 <figure class="item-figure">
-                    <img class="Img-producto" src="img-poleras/Poleras/mclovin.jpg" alt="producto">
+                    <img class="Img-producto" src="img-poleras/Poleras/mclovin.jpg"  onclick="openFulImg(this.src)" alt="producto">
                 </figure>
           
                 <div class="info-productos">
