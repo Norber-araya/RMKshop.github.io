@@ -18,6 +18,7 @@
     height: 100px;
     padding: 15px 10%;
     
+    
 }
 
 .Header .logo{
@@ -27,6 +28,7 @@
     height: 100px;
     width: 90px;
     transition: all 0.3s;
+    
 }
 .Header .logo img:hover{
 transform: scale(1.2);
@@ -34,19 +36,23 @@ transform: scale(1.2);
 .Header .navLink{
     list-style: none;
     /* para quitar los estilos de la nav */
+    
 }
 .Header .navLink li{
     display: inline-block;
     padding: 0 20px;
+   
     
 }
 .Header .navLink .li:hover{
     transform: scale(1.1);
+    
 }
 .Header .navLink a{
 font-size: 700;
 color: azure;
 text-decoration: none;
+
 
 }
 .Header .navLink li a:hover{
@@ -54,15 +60,18 @@ text-decoration: none;
     transform: scale(1.1);
     transition: all 0.3s;
     font-family: 'Playfair Display', serif;
+    
 }
 /* hamburguesa */
  .hamburguesa{
     display: none;
     cursor: pointer;
     position: absolute;
+    
  
 }
 .bar{
+    
     /* icono */
     display: block;
     width: 25px;
@@ -416,12 +425,13 @@ padding: 45px 0px;
         transform: translateY(-8px) rotate(-45deg);
     }
     .navLink{
-        position:absolute;
-        
+       position: absolute;
+      display: grid;
+        flex-direction: colum;
         left: -100%;
         top: 120px;
         gap: 0;
-        flex-direction: column;
+        z-index: 100;
         background-color: rgb(5, 5, 5);
         width: 100%;
         text-align: center;
@@ -430,6 +440,7 @@ padding: 45px 0px;
     }
     .nav-link{
         margin: 16px 0;
+        
       }
         .navLink.active{
             left: 0;
