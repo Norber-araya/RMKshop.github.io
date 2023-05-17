@@ -23,4 +23,6 @@ function openFulImg(reference){
 
 function closeImg(){
     FulImgBox.style.display = "none";
+    
 }
+
