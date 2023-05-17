@@ -321,11 +321,12 @@ padding: 45px 0px;
 
 
     
-/* apliar imangen */
+/* ampliar imagen */
 .ful-img{
     width: 100%;
     height: 100vh ;
     background-color: rgba(0, 0, 0, 0.9);
+   
     position: fixed;
     top: 0;
     left: 0;
