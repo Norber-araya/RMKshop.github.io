@@ -199,6 +199,7 @@ text-decoration: none;
 overflow: hidden;
 }
 .Img-producto:hover  {
+    
     transform:  scale(1.15);
 }
 .info-productos{
@@ -243,6 +244,8 @@ overflow: hidden;
 }
 
 /* item-poleras */
+
+
 /* Footer seba */
 
 .pie-pagina{
