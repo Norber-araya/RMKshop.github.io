@@ -11,18 +11,32 @@ document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", 
    }
 ))
 
-const FulImgBox = document.getElementById("fulImgBox"),
-fulImg = document.getElementById("fulImg");
+
+
+
+// const FulImgBox = document.getElementById("fulImgBox"),
+const FulImgBox = document.getElementById("fulImgBox")
+const fulImg = document.getElementById("fulImg");
+
 
 function openFulImg(reference){
     FulImgBox.style.display = "flex";
     fulImg.src = reference
+    
 }
 
 function closeImg(){
     FulImgBox.style.display = "none";
-    // HOLA
+   
     
 }
+
+
+
+
+
+
+
+
 
 
