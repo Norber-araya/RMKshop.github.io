@@ -1,11 +1,6 @@
-
 *{  
     margin: 0;
-    padding: 0;
-
-}
-
-   
+    padding: 0;}
 .Bodyseba{
     box-sizing: border-box;  
     font-family: 'Playfair Display', serif;
@@ -14,7 +9,7 @@
 }
 /* Header */
 .Header{
-  
+   
     background-color: rgb(0, 0, 0);
     display: flex;
     justify-content: space-between;
@@ -373,9 +368,6 @@ padding: 45px 0px;
 
 /* Footer seba */
 @media (max-width:600px) {
-    body{
-        font-family: sans-serif;
-    }
 
     .Item-Venta {
         max-width: 400px;
@@ -434,7 +426,6 @@ padding: 45px 0px;
 }
 
 @media(max-width:800px){
-    
     .hamburguesa{
         
         display: block;
@@ -449,10 +440,8 @@ padding: 45px 0px;
     .hamburguesa.active .bar:nth-child(3){
         transform: translateY(-8px) rotate(-45deg);
     }
-
-
     .navLink{
-        position: absolute;
+       position: absolute;
         display: grid;
         flex-direction: colum;
         left: -100%;
@@ -464,10 +453,8 @@ padding: 45px 0px;
        
         text-align: center;
         transition: 0.3s;
-      
+       
     }
-
-    
     .nav-link{
         margin: 16px 0;
         
