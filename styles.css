@@ -452,8 +452,8 @@ padding: 45px 0px;
 
 
     .navLink{
-       position:absolute;
-       display: grid;
+        position: absolute;
+        display: grid;
         flex-direction: colum;
         left: -100%;
         top: 120px;
