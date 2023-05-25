@@ -442,7 +442,7 @@ padding: 45px 0px;
         transform: translateY(-8px) rotate(-45deg);
     }
     .navLink{
-       position: absolute;
+       position: fixed;
         display: grid;
         flex-direction: colum;
         left: -100%;
@@ -451,11 +451,12 @@ padding: 45px 0px;
         z-index: 100;
         background-color: rgb(5, 5, 5);
         width: 100%;
-       
         text-align: center;
         transition: 0.3s;
-       
+       height: calc(100% );
     }
+
+    
     .nav-link{
         margin: 16px 0;
         
